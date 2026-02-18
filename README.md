@@ -550,12 +550,12 @@ Le service test-reseau est démarré (pid = 2529).
 
 **3- Le système Debian utilise un mécanisme nomm´e ”SysVinit” (remplacé par systemd
 dans les nouvelles versions) pour gérer les services, c’est à dire les processus permanents
-lancés au démarrage de la machine.
+lancés au démarrage de la machine.**
 
-A l’aide de la commande ln, faites en sorte que le service test-reseau soit démarré
+**A l’aide de la commande ln, faites en sorte que le service test-reseau soit démarré
 automatiquement lorsque votre machine d´emarre.**
 
-Redémarrez la machine et consultez les fichiers /var/log/boot.log
+**Redémarrez la machine et consultez les fichiers /var/log/boot.log
 et /var/log/test-reseau.log pour vérifier que le service test-reseau a bien été
 démarré. Vérifiez aussi que le processus est bien présent à l’aide de la commande ps.**
 
